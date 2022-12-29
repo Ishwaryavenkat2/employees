@@ -1,0 +1,58 @@
+.addnew label {
+  margin: 0 0 15px;
+  font-size: 20px;
+  font-family: initial;
+}
+.addnew input {
+  width: 100%;
+  border: none;
+  padding: 7px 12px;
+  font-size: 16px;
+  margin: 0 0 15px;
+  border-radius: 5px;
+  box-shadow: 0 6px 16px 6px rgba(0, 0, 0, 0.16);
+}
+  
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+  
+.addnew button {
+  border: 1px solid #005b7f;
+  padding: 5px 12px;
+  float: right;
+  margin: 5px 10px 20px;
+  outline: none;
+  width: 150px;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+}
+.addnew button:hover {
+  background: #005b7f;
+  color: #fff;
+}
+.choices {
+  padding: 5px 20px;
+}
+.choices input[type="radio"] {
+  width: initial;
+  margin: 0;
+  box-shadow: 0 0 0;
+}
+.choices label {
+  width: initial;
+  margin: 0;
+}
+
+  
+  #cancelBtn {
+    background-color: crimson;
+  }

@@ -70,11 +70,6 @@ console.log("func",updateData)
           refreshPage();
         })       
   }
-  
-//     return axios.put("https://localhost:7194/api/Employee/updateEmployee",
-//     {employeeName: `${newData.employeeName}`,employeeName: `${newData.employeeName}`,employeeSalary: `${newData.employeeSalary}`,city: `${newData.city}`}, { headers })
-//           .then((response) => {setUser(response.data);console.log("---",response)})       
-//   }
 
 //   const deleteEmployee = () => {
 //     return axios.put("https://localhost:7194/api/Employee/deleteEmployee", { headers })
@@ -83,17 +78,6 @@ console.log("func",updateData)
 
   useEffect(() => {
     fetchData();
-    // fetch("https://localhost:7194/api/Employee/getEmployee",{
-    //     mode: 'no-cors',
-    //     method: 'GET',
-    //     headers: headers
-    //   })
-    //   .then((res) => {
-    //     console.log(res);
-    //     setUser(res);
-    //   })
-    //   .catch((err) => console.log("Error",err));
-//    console.log("---user",user);
   },[])
 
 

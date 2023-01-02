@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import classes from'./Modal.module.css'
 import './Modal.css'
 import Card from './card/Card';
+import FileUploadMultiple from '../fileupload/FileUploadMultiple';
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onClose} />;
   };
@@ -48,6 +49,9 @@ const Backdrop = (props) => {
             value={props.newData.city}
             onChange={props.handleChange}
           />
+
+          <FileUploadMultiple/>
+
           <button
              onClick={props.onClose}
             id="cancelBtn"
